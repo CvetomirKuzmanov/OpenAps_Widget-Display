@@ -9,3 +9,5 @@
 ## The widget
 
 ### The second part is the widget itself that works by reading the information then displaying it every 10 minutes.
+
+### The widget is in the value.js file and should be copy and pasted into Scriptable.
