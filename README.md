@@ -1,7 +1,11 @@
 # BackEnd
 
-## This is one of the parts of the openAps/Nightscout widget for iphone
+## MongoDB requests
 
-# It works by getting the entries from mongoDB, then sending it to the server and displaying it to the front-end.
+### This is one of the parts of the openAps/Nightscout widget for iphone
 
-## The second part is the widget itself that works by reading the information then displaying it every 10 minutes.
+### It works by getting the entries from mongoDB, then sending it to the server and displaying it to the front-end.
+
+## The widget
+
+### The second part is the widget itself that works by reading the information then displaying it every 10 minutes.
