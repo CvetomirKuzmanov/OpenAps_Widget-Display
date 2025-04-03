@@ -1,13 +1,40 @@
-# BackEnd
+# README
 
-## MongoDB requests
+## Installation
 
-### This is one of the parts of the openAps/Nightscout widget for iphone
+Make sure you have Node.js and npm installed beforehand.
 
-### It works by getting the entries from mongoDB, then sending it to the server and displaying it to the front-end.
+1. Open the project folder in your terminal.
+2. Install the dependencies by running:
+   ```sh
+   npm install
+   ```
 
-## The widget
+## Configuration
 
-### The second part is the widget itself that works by reading the information then displaying it every 10 minutes.
+Create a file named `.env.development` in the root of your project and add the following content:
 
-### The widget is in the value.js file and should be copy and pasted into Scriptable.
+```sh
+MONGO_URI='mongodb+srv://myDatabaseUser:D1fficultP%40ssw0rd@mongodb0.example.com/?authSource=admin&replicaSet=myRepl'
+```
+
+For more details on how to get the MongoDB URI, refer to [MongoDB Connection String Documentation](https://www.mongodb.com/docs/manual/reference/connection-string/).
+
+## Deployment
+
+To deploy the server to a hosting platform like Railway, follow the steps in their [Quick Start Guide](https://docs.railway.com/quick-start).
+
+## Scriptable Widget Setup
+
+1. Install the [Scriptable](https://apps.apple.com/app/scriptable/id1405459188) app on your iPhone.
+2. Create a new script inside the app.
+3. Copy and paste the contents of the `script.js` file from this project into the new script.
+4. Save the script.
+5. Go to your iPhone home screen and enter edit mode (long-press on the screen).
+6. Tap the `+` button to add a widget.
+7. Search for Scriptable and add a widget.
+8. Edit the widget and select the script you created.
+9. Save and exit.
+
+Your Scriptable widget should now be active on your home screen!
+
