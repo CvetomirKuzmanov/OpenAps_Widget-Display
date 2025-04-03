@@ -1,5 +1,9 @@
 # README
 
+## Information
+
+This is a widget to display your open apps' information, made from scratch. You'll need to follow the installation steps and set up your own website that will be used to read the information and send it to the widget.
+
 ## Installation
 
 Make sure you have Node.js and npm installed beforehand.
@@ -31,9 +35,10 @@ To deploy the server to a hosting platform like Railway, follow the steps in the
 3. Copy and paste the contents of the `script.js` file from this project into the new script.
 4. Save the script.
 5. Go to your iPhone home screen and enter edit mode (long-press on the screen).
-6. Tap the `Edit` button and then the `Add Widget` button to add a widget.
-7. Search for Scriptable and add the `Run Script` widget.
-8. In the edit mode click the widget and select the script you created.
+6. Tap the `+` button to add a widget.
+7. Search for Scriptable and add a widget.
+8. Edit the widget and select the script you created.
 9. Save and exit.
 
-Your OpenAps widget should now be active on your home screen!
+Your Scriptable widget should now be active on your home screen!
+
