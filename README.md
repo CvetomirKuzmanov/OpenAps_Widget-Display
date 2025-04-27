@@ -8,6 +8,8 @@
 
 This is a widget to display your open apps' information, made from scratch. You'll need to follow the installation steps and set up your own website that will be used to read the information and send it to the widget.
 
+![Backend](https://github.com/user-attachments/assets/57048d01-362d-4d27-911e-2d110957dab4)
+
 ## Installation
 
 Make sure you have Node.js and npm installed beforehand.
